@@ -1,29 +1,16 @@
-public class LeapYear {
-
-    public static void main(String[] args) {
-
-        int year = 2048;
-        boolean leap = false;
-
-        if(year % 4 == 0)
-        {
-            if( year % 100 == 0)
-            {
-                
-                if ( year % 400 == 0)
-                    leap = true;
-                else
-                    leap = false;
+import java.util.Scanner;
+public class LeapYear 
+{
+    public static void main(String[] args)
+    {
+          int year;
+          Scanner sc=new Scanner(System.in);
+                  year= sc.nextInt();
+        if(year%4==0)
+        System.out.println(year + " yes.");
+        else 
+       System.out.println(year + " no.");
+           
+               }
             }
-            else
-                leap = true;
-        }
-        else
-            leap = false;
 
-        if(leap)
-            System.out.println(year + " yes.");
-        else
-            System.out.println(year + " no.");
-    }
-}

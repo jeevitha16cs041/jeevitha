@@ -6,11 +6,11 @@ import java.io.*;
 	
 	    public static void main(String[] args) {
 	
-	        char c = '+';
+	        char c = 'd';
 	
 	        if( (c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 	        {
-	            System.out.println(c + " alphabet.");
+	            System.out.println(c + " Alphabet.");
 	        }
 	        else
 	        {
